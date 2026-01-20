@@ -1,0 +1,24 @@
+.XIcon {
+    padding-left: 20px;
+}
+
+.sidebar{
+    border-right: 1px solid lightgray;
+    flex: 0.3;
+    min-width: 250px;
+}
+
+
+.tweet-button {
+    background-color: black !important; /*sorry*/
+    color: white !important;/*REAAAALLY sorry*/
+    border-radius: 36px !important;/*this is not my fault*/
+    padding: 8px 40px !important;/*its just...okay okay i'll stop*/
+    text-transform: inherit !important;/*god you know i hate !important rehab! they... *sighs* ok i'll go to the Important Anonymoys meeting*/
+    border: none !important; /*i didn't mean for my entire family to die in the car accident while i was driving while !important'ing, okay? what do you want me to do?*/
+    height: 54px !important; /*i've died of !important and speaking to you from hell*/
+    margin-top: 15px !important;
+    font-weight: 900 !important;
+    font-size: 18px !important; 
+    width: 215px !important; 
+}
