@@ -1,13 +1,14 @@
 :root {
-  --twitter-blue: #50b7f5;
+  --twitter-blue:	rgb(29, 155, 240);
   --twitter-other-blue: #e6ecf0;
 }
 
-.sidebar {
-  margin: 8px 48px 0px 96px;
-}
 
 .App {
   display: flex;
   height: 100vh;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
 }

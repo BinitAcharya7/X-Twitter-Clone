@@ -8,9 +8,9 @@ import { Button } from '@mui/material';
 function Sidebar() {
   return (
     <div className="sidebar">
-        <XIcon className='XIcon'/>
+        <XIcon className='XIcon' fontSize='large'/>
         <SidebarOption active text="Home" Icon={<HomeRounded />} />
-        <SidebarOption text="Explore" Icon={<SearchOutlined />}/>
+        <SidebarOption text="Explore" Icon={<SearchOutlined  />}/>
         <SidebarOption text="Notifications" Icon={<NotificationsNoneOutlined />} />
         <SidebarOption text="Chat" Icon={<MailOutlined />} />
         <SidebarOption text="Bookmarks" Icon={<BookmarkBorderOutlined />} />

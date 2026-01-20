@@ -1,0 +1,42 @@
+.feed {
+    flex: 0.4;
+    border-right: 1px solid rgba(128, 128, 128, 0.556);
+    min-width: fit-content; /*the longest post/sentence*/
+    overflow-y: scroll;
+}
+
+.feed__header {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    padding: 15px 0px;
+    background-color: white;
+    z-index: 100;
+    font-weight: 700;
+}
+
+
+.feed__header__item--active {
+    position: relative;
+    padding-bottom: 15px;
+    /* margin-bottom: 15px;
+    text-decoration-line: underline;
+    text-decoration-color: var(--twitter-blue);
+    text-decoration-thickness: 5px;
+    text-decoration-style: solid;
+    text-underline-offset: 15px; */
+
+}
+
+.feed__header__item--active::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    background-color: var(--twitter-blue);
+    border-radius: 5px;
+    z-index: -1;
+    width: 100%;
+}

@@ -1,9 +1,10 @@
 .XIcon {
     padding-left: 20px;
+    padding-top: 14px;
 }
 
 .sidebar{
-    border-right: 1px solid lightgray;
+    border-right: 1px solid rgba(128, 128, 128, 0.556);
     flex: 0.3;
     min-width: 250px;
 }

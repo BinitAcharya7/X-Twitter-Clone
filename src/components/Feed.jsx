@@ -1,13 +1,18 @@
 import React from 'react'
+import '../Feed.css'
+
 
 function Feed() {
   return (
-    <div>f
-        {/* Header */}
-        {/* TweetBakash */}
-        {/* Posts... */}
-        {/* Posts... */}
-        {/* Posts... */}
+    <div className="feed">
+        <div className="feed__header">
+            <span className='feed__header__item--active'>For you</span>
+            <span className='feed__header__item'>Following</span>
+            {/* TweetBakash */}
+            {/* Posts... */}
+            {/* Posts... */}
+            {/* Posts... */}
+        </div>
     </div>
   )
 }
